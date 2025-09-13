@@ -1,0 +1,14 @@
+# Target labels
+ json-populate
+# Source files and their labels
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/json-subbuild/CMakeFiles/json-populate
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/json-subbuild/CMakeFiles/json-populate.rule
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/json-subbuild/CMakeFiles/json-populate-complete.rule
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-build.rule
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-configure.rule
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-download.rule
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-install.rule
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-mkdir.rule
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-patch.rule
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-test.rule
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-update.rule

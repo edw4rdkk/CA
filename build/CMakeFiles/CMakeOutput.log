@@ -1,0 +1,303 @@
+Performing Curl Test HAVE_FSETXATTR_6 passed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_8d172/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_8d172.dir/build.make CMakeFiles/cmTC_8d172.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d172.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_FSETXATTR_6  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_8d172.dir/CurlTests.c.o -MF CMakeFiles/cmTC_8d172.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_8d172.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:405:5: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  405 | main() {
+      |     ^
+      |      void
+1 warning generated.
+Linking C executable cmTC_8d172
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d172.dir/link.txt --verbose=1
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_FSETXATTR_6  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8d172.dir/CurlTests.c.o -o cmTC_8d172
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_FCNTL_O_NONBLOCK passed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_f50a7/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_f50a7.dir/build.make CMakeFiles/cmTC_f50a7.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f50a7.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_FCNTL_O_NONBLOCK  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_f50a7.dir/CurlTests.c.o -MF CMakeFiles/cmTC_f50a7.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_f50a7.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:49:6: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   49 | main ()
+      |      ^
+      |       void
+1 warning generated.
+Linking C executable cmTC_f50a7
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f50a7.dir/link.txt --verbose=1
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_FCNTL_O_NONBLOCK  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f50a7.dir/CurlTests.c.o -o cmTC_f50a7
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_IOCTL_FIONBIO passed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_703b1/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_703b1.dir/build.make CMakeFiles/cmTC_703b1.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_703b1.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_IOCTL_FIONBIO  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_703b1.dir/CurlTests.c.o -MF CMakeFiles/cmTC_703b1.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_703b1.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:302:6: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  302 | main ()
+      |      ^
+      |       void
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:309:3: warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+  309 |   ;
+      |   ^
+2 warnings generated.
+Linking C executable cmTC_703b1
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_703b1.dir/link.txt --verbose=1
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_IOCTL_FIONBIO  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_703b1.dir/CurlTests.c.o -o cmTC_703b1
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_IOCTL_SIOCGIFADDR passed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_b446e/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_b446e.dir/build.make CMakeFiles/cmTC_b446e.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b446e.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_IOCTL_SIOCGIFADDR  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_b446e.dir/CurlTests.c.o -MF CMakeFiles/cmTC_b446e.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_b446e.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:334:6: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  334 | main ()
+      |      ^
+      |       void
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:340:3: warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+  340 |   ;
+      |   ^
+2 warnings generated.
+Linking C executable cmTC_b446e
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b446e.dir/link.txt --verbose=1
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_IOCTL_SIOCGIFADDR  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b446e.dir/CurlTests.c.o -o cmTC_b446e
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_IN_ADDR_T passed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_6cbd6/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_6cbd6.dir/build.make CMakeFiles/cmTC_6cbd6.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6cbd6.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_IN_ADDR_T  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_6cbd6.dir/CurlTests.c.o -MF CMakeFiles/cmTC_6cbd6.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_6cbd6.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:135:6: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  135 | main ()
+      |      ^
+      |       void
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:141:3: warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+  141 |   ;
+      |   ^
+2 warnings generated.
+Linking C executable cmTC_6cbd6
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6cbd6.dir/link.txt --verbose=1
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_IN_ADDR_T  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6cbd6.dir/CurlTests.c.o -o cmTC_6cbd6
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_BOOL_T passed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_ac2cb/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_ac2cb.dir/build.make CMakeFiles/cmTC_ac2cb.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac2cb.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_BOOL_T  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_ac2cb.dir/CurlTests.c.o -MF CMakeFiles/cmTC_ac2cb.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_ac2cb.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:154:6: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  154 | main ()
+      |      ^
+      |       void
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:158:3: warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+  158 |   ;
+      |   ^
+2 warnings generated.
+Linking C executable cmTC_ac2cb
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac2cb.dir/link.txt --verbose=1
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_BOOL_T  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ac2cb.dir/CurlTests.c.o -o cmTC_ac2cb
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test STDC_HEADERS passed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_1340a/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_1340a.dir/build.make CMakeFiles/cmTC_1340a.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1340a.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DSTDC_HEADERS  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_1340a.dir/CurlTests.c.o -MF CMakeFiles/cmTC_1340a.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_1340a.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:168:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  168 | int main() { return 0; }
+      |         ^
+      |          void
+1 warning generated.
+Linking C executable cmTC_1340a
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1340a.dir/link.txt --verbose=1
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DSTDC_HEADERS  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1340a.dir/CurlTests.c.o -o cmTC_1340a
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_FILE_OFFSET_BITS passed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_44995/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_44995.dir/build.make CMakeFiles/cmTC_44995.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44995.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_FILE_OFFSET_BITS  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_44995.dir/CurlTests.c.o -MF CMakeFiles/cmTC_44995.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_44995.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:184:10: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  184 | int main () { ; return 0; }
+      |          ^
+      |           void
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:184:15: warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+  184 | int main () { ; return 0; }
+      |               ^
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:181:7: warning: no previous extern declaration for non-static variable 'off_t_is_large' [-Wmissing-variable-declarations]
+  181 |   int off_t_is_large[(LARGE_OFF_T % 2147483629 == 721
+      |       ^
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:181:3: note: declare 'static' if the variable is not intended to be used outside of this translation unit
+  181 |   int off_t_is_large[(LARGE_OFF_T % 2147483629 == 721
+      |   ^
+3 warnings generated.
+Linking C executable cmTC_44995
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44995.dir/link.txt --verbose=1
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_FILE_OFFSET_BITS  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_44995.dir/CurlTests.c.o -o cmTC_44995
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_VARIADIC_MACROS_C99 passed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_d4d4c/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_d4d4c.dir/build.make CMakeFiles/cmTC_d4d4c.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4d4c.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_VARIADIC_MACROS_C99  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_d4d4c.dir/CurlTests.c.o -MF CMakeFiles/cmTC_d4d4c.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_d4d4c.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:449:5: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  449 | main() {
+      |     ^
+      |      void
+1 warning generated.
+Linking C executable cmTC_d4d4c
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4d4c.dir/link.txt --verbose=1
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_VARIADIC_MACROS_C99  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d4d4c.dir/CurlTests.c.o -o cmTC_d4d4c
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_VARIADIC_MACROS_GCC passed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_64d0a/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_64d0a.dir/build.make CMakeFiles/cmTC_64d0a.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64d0a.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_VARIADIC_MACROS_GCC  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_64d0a.dir/CurlTests.c.o -MF CMakeFiles/cmTC_64d0a.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_64d0a.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:458:32: warning: named variadic macros are a GNU extension [-Wvariadic-macros]
+  458 | #define gcc_vmacro3(first, args...) fun3(first, args)
+      |                                ^
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:459:32: warning: named variadic macros are a GNU extension [-Wvariadic-macros]
+  459 | #define gcc_vmacro2(first, args...) fun2(first, args)
+      |                                ^
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:472:5: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  472 | main() {
+      |     ^
+      |      void
+3 warnings generated.
+Linking C executable cmTC_64d0a
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64d0a.dir/link.txt --verbose=1
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_VARIADIC_MACROS_GCC  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_64d0a.dir/CurlTests.c.o -o cmTC_64d0a
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_ATOMIC passed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_f3161/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_f3161.dir/build.make CMakeFiles/cmTC_f3161.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3161.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_ATOMIC  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_f3161.dir/CurlTests.c.o -MF CMakeFiles/cmTC_f3161.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_f3161.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:494:5: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  494 | main() {
+      |     ^
+      |      void
+1 warning generated.
+Linking C executable cmTC_f3161
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3161.dir/link.txt --verbose=1
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_ATOMIC  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f3161.dir/CurlTests.c.o -o cmTC_f3161
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_POSIX_STRERROR_R passed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_7b312/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_7b312.dir/build.make CMakeFiles/cmTC_7b312.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b312.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_POSIX_STRERROR_R  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_7b312.dir/CurlTests.c.o -MF CMakeFiles/cmTC_7b312.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_7b312.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:392:18: warning: unused parameter 'f' [-Wunused-parameter]
+  392 | void check(float f) {}
+      |                  ^
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:392:6: warning: no previous prototype for function 'check' [-Wmissing-prototypes]
+  392 | void check(float f) {}
+      |      ^
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:392:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+  392 | void check(float f) {}
+      | ^
+      | static 
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:395:6: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  395 | main () {
+      |      ^
+      |       void
+3 warnings generated.
+Linking C executable cmTC_7b312
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b312.dir/link.txt --verbose=1
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_POSIX_STRERROR_R  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7b312.dir/CurlTests.c.o -o cmTC_7b312
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_CLOCK_GETTIME_MONOTONIC passed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_f768f/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_f768f.dir/build.make CMakeFiles/cmTC_f768f.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f768f.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_CLOCK_GETTIME_MONOTONIC  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_f768f.dir/CurlTests.c.o -MF CMakeFiles/cmTC_f768f.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_f768f.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:421:5: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  421 | main() {
+      |     ^
+      |      void
+1 warning generated.
+Linking C executable cmTC_f768f
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f768f.dir/link.txt --verbose=1
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_CLOCK_GETTIME_MONOTONIC  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f768f.dir/CurlTests.c.o -o cmTC_f768f
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_BUILTIN_AVAILABLE passed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_9a0a1/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_9a0a1.dir/build.make CMakeFiles/cmTC_9a0a1.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a0a1.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_BUILTIN_AVAILABLE  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_9a0a1.dir/CurlTests.c.o -MF CMakeFiles/cmTC_9a0a1.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_9a0a1.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:429:5: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  429 | main() {
+      |     ^
+      |      void
+1 warning generated.
+Linking C executable cmTC_9a0a1
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a0a1.dir/link.txt --verbose=1
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_BUILTIN_AVAILABLE  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9a0a1.dir/CurlTests.c.o -o cmTC_9a0a1
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+

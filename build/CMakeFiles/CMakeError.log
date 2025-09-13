@@ -1,0 +1,341 @@
+Performing Curl Test HAVE_FSETXATTR_5 failed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_f7393/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_f7393.dir/build.make CMakeFiles/cmTC_f7393.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7393.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_FSETXATTR_5  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_f7393.dir/CurlTests.c.o -MF CMakeFiles/cmTC_f7393.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_f7393.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:413:5: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  413 | main() {
+      |     ^
+      |      void
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:414:26: error: too few arguments to function call, expected 6, have 5
+  414 |   fsetxattr(0, 0, 0, 0, 0);
+      |   ~~~~~~~~~              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/xattr.h:70:5: note: 'fsetxattr' declared here
+   70 | int fsetxattr(int fd, const char *name, const void *value, size_t size, u_int32_t position, int options);
+      |     ^         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning and 1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_f7393.dir/build.make:82: CMakeFiles/cmTC_f7393.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:134: cmTC_f7393/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET failed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_9b22b/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_9b22b.dir/build.make CMakeFiles/cmTC_9b22b.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b22b.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_IOCTLSOCKET  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_9b22b.dir/CurlTests.c.o -MF CMakeFiles/cmTC_9b22b.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_9b22b.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:199:6: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  199 | main ()
+      |      ^
+      |       void
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:204:24: error: call to undeclared function 'ioctlsocket'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  204 |  unsigned long flags = ioctlsocket(socket, FIONBIO, &flags);
+      |                        ^
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:204:44: error: use of undeclared identifier 'FIONBIO'
+  204 |  unsigned long flags = ioctlsocket(socket, FIONBIO, &flags);
+      |                                            ^
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:206:3: warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+  206 |   ;
+      |   ^
+2 warnings and 2 errors generated.
+gmake[1]: *** [CMakeFiles/cmTC_9b22b.dir/build.make:82: CMakeFiles/cmTC_9b22b.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:134: cmTC_9b22b/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL failed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_49661/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_49661.dir/build.make CMakeFiles/cmTC_49661.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49661.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_IOCTLSOCKET_CAMEL  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_49661.dir/CurlTests.c.o -MF CMakeFiles/cmTC_49661.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_49661.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:224:6: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  224 | main ()
+      |      ^
+      |       void
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:228:13: error: call to undeclared function 'IoctlSocket'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  228 |     if(0 != IoctlSocket(0, 0, 0))
+      |             ^
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:230:3: warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+  230 |   ;
+      |   ^
+2 warnings and 1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_49661.dir/build.make:82: CMakeFiles/cmTC_49661.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:134: cmTC_49661/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO failed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_23ab2/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_23ab2.dir/build.make CMakeFiles/cmTC_23ab2.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23ab2.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_IOCTLSOCKET_CAMEL_FIONBIO  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_23ab2.dir/CurlTests.c.o -MF CMakeFiles/cmTC_23ab2.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_23ab2.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:247:6: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  247 | main ()
+      |      ^
+      |       void
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:252:17: error: call to undeclared function 'IoctlSocket'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  252 |         if(0 != IoctlSocket(0, FIONBIO, &flags))
+      |                 ^
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:252:32: error: use of undeclared identifier 'FIONBIO'
+  252 |         if(0 != IoctlSocket(0, FIONBIO, &flags))
+      |                                ^
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:254:3: warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+  254 |   ;
+      |   ^
+2 warnings and 2 errors generated.
+gmake[1]: *** [CMakeFiles/cmTC_23ab2.dir/build.make:82: CMakeFiles/cmTC_23ab2.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:134: cmTC_23ab2/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO failed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_6b8e8/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_6b8e8.dir/build.make CMakeFiles/cmTC_6b8e8.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6b8e8.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_IOCTLSOCKET_FIONBIO  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_6b8e8.dir/CurlTests.c.o -MF CMakeFiles/cmTC_6b8e8.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_6b8e8.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:271:6: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  271 | main ()
+      |      ^
+      |       void
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:275:17: error: call to undeclared function 'ioctlsocket'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  275 |         if(0 != ioctlsocket(0, FIONBIO, &flags))
+      |                 ^
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:275:32: error: use of undeclared identifier 'FIONBIO'
+  275 |         if(0 != ioctlsocket(0, FIONBIO, &flags))
+      |                                ^
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:278:3: warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+  278 |   ;
+      |   ^
+2 warnings and 2 errors generated.
+gmake[1]: *** [CMakeFiles/cmTC_6b8e8.dir/build.make:82: CMakeFiles/cmTC_6b8e8.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:134: cmTC_6b8e8/fast] Error 2
+
+
+Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK failed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_389ac/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_389ac.dir/build.make CMakeFiles/cmTC_389ac.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_389ac.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_SETSOCKOPT_SO_NONBLOCK  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_389ac.dir/CurlTests.c.o -MF CMakeFiles/cmTC_389ac.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_389ac.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:365:6: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  365 | main ()
+      |      ^
+      |       void
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:367:43: error: use of undeclared identifier 'SO_NONBLOCK'
+  367 |         if(0 != setsockopt(0, SOL_SOCKET, SO_NONBLOCK, 0, 0))
+      |                                           ^
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:369:3: warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+  369 |   ;
+      |   ^
+2 warnings and 1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_389ac.dir/build.make:82: CMakeFiles/cmTC_389ac.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:134: cmTC_389ac/fast] Error 2
+
+
+Performing Curl Test HAVE_O_NONBLOCK failed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_8d19b/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_8d19b.dir/build.make CMakeFiles/cmTC_8d19b.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d19b.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_O_NONBLOCK  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_8d19b.dir/CurlTests.c.o -MF CMakeFiles/cmTC_8d19b.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_8d19b.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:515:7: warning: ISO C requires a translation unit to contain at least one declaration [-Wempty-translation-unit]
+  515 | #endif
+      |       ^
+1 warning generated.
+Linking C executable cmTC_8d19b
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d19b.dir/link.txt --verbose=1
+Undefined symbols for architecture arm64:
+  "_main", referenced from:
+      <initial-undefines>
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_O_NONBLOCK  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8d19b.dir/CurlTests.c.o -o cmTC_8d19b
+gmake[1]: *** [CMakeFiles/cmTC_8d19b.dir/build.make:103: cmTC_8d19b] Error 1
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:134: cmTC_8d19b/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_3 failed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_12ad7/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_12ad7.dir/build.make CMakeFiles/cmTC_12ad7.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12ad7.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_GETHOSTBYNAME_R_3  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_12ad7.dir/CurlTests.c.o -MF CMakeFiles/cmTC_12ad7.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_12ad7.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:75:9: warning: initializing 'char *' with an expression of type 'const char[12]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   75 |   char *address = "example.com";
+      |         ^         ~~~~~~~~~~~~~
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:82:23: error: variable has incomplete type 'struct hostent_data'
+   82 |   struct hostent_data hdata;
+      |                       ^
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:82:10: note: forward declaration of 'struct hostent_data'
+   82 |   struct hostent_data hdata;
+      |          ^
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:94:8: error: call to undeclared function 'gethostbyname_r'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   94 |   rc = gethostbyname_r(address, &h, &hdata);
+      |        ^
+1 warning and 2 errors generated.
+gmake[1]: *** [CMakeFiles/cmTC_12ad7.dir/build.make:82: CMakeFiles/cmTC_12ad7.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:134: cmTC_12ad7/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_5 failed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_f4580/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_f4580.dir/build.make CMakeFiles/cmTC_f4580.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4580.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_GETHOSTBYNAME_R_5  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_f4580.dir/CurlTests.c.o -MF CMakeFiles/cmTC_f4580.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_f4580.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:75:9: warning: initializing 'char *' with an expression of type 'const char[12]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   75 |   char *address = "example.com";
+      |         ^         ~~~~~~~~~~~~~
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:97:8: error: call to undeclared function 'gethostbyname_r'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   97 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |        ^
+1 warning and 1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_f4580.dir/build.make:82: CMakeFiles/cmTC_f4580.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:134: cmTC_f4580/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_6 failed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_90886/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_90886.dir/build.make CMakeFiles/cmTC_90886.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90886.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_GETHOSTBYNAME_R_6  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_90886.dir/CurlTests.c.o -MF CMakeFiles/cmTC_90886.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_90886.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:75:9: warning: initializing 'char *' with an expression of type 'const char[12]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   75 |   char *address = "example.com";
+      |         ^         ~~~~~~~~~~~~~
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:101:8: error: call to undeclared function 'gethostbyname_r'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  101 |   rc = gethostbyname_r(address, &h, buffer, 8192, &hp, &h_errnop);
+      |        ^
+1 warning and 1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_90886.dir/build.make:82: CMakeFiles/cmTC_90886.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:134: cmTC_90886/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_3_REENTRANT failed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_082b7/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_082b7.dir/build.make CMakeFiles/cmTC_082b7.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_082b7.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_GETHOSTBYNAME_R_3_REENTRANT  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_082b7.dir/CurlTests.c.o -MF CMakeFiles/cmTC_082b7.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_082b7.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:75:9: warning: initializing 'char *' with an expression of type 'const char[12]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   75 |   char *address = "example.com";
+      |         ^         ~~~~~~~~~~~~~
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:82:23: error: variable has incomplete type 'struct hostent_data'
+   82 |   struct hostent_data hdata;
+      |                       ^
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:82:10: note: forward declaration of 'struct hostent_data'
+   82 |   struct hostent_data hdata;
+      |          ^
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:94:8: error: call to undeclared function 'gethostbyname_r'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   94 |   rc = gethostbyname_r(address, &h, &hdata);
+      |        ^
+1 warning and 2 errors generated.
+gmake[1]: *** [CMakeFiles/cmTC_082b7.dir/build.make:82: CMakeFiles/cmTC_082b7.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:134: cmTC_082b7/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_5_REENTRANT failed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_8599d/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_8599d.dir/build.make CMakeFiles/cmTC_8599d.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8599d.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_GETHOSTBYNAME_R_5_REENTRANT  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_8599d.dir/CurlTests.c.o -MF CMakeFiles/cmTC_8599d.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_8599d.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:75:9: warning: initializing 'char *' with an expression of type 'const char[12]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   75 |   char *address = "example.com";
+      |         ^         ~~~~~~~~~~~~~
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:97:8: error: call to undeclared function 'gethostbyname_r'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   97 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |        ^
+1 warning and 1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_8599d.dir/build.make:82: CMakeFiles/cmTC_8599d.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:134: cmTC_8599d/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_6_REENTRANT failed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_bef89/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_bef89.dir/build.make CMakeFiles/cmTC_bef89.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bef89.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_GETHOSTBYNAME_R_6_REENTRANT  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_bef89.dir/CurlTests.c.o -MF CMakeFiles/cmTC_bef89.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_bef89.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:75:9: warning: initializing 'char *' with an expression of type 'const char[12]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   75 |   char *address = "example.com";
+      |         ^         ~~~~~~~~~~~~~
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:101:8: error: call to undeclared function 'gethostbyname_r'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  101 |   rc = gethostbyname_r(address, &h, buffer, 8192, &hp, &h_errnop);
+      |        ^
+1 warning and 1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_bef89.dir/build.make:82: CMakeFiles/cmTC_bef89.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:134: cmTC_bef89/fast] Error 2
+
+
+Performing Curl Test HAVE_GLIBC_STRERROR_R failed with the following output:
+Change Dir: '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_bedb9/fast
+/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_bedb9.dir/build.make CMakeFiles/cmTC_bedb9.dir/build
+gmake[1]: Entering directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bedb9.dir/CurlTests.c.o
+/usr/bin/cc   -Wextra -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wshift-sign-overflow -Wshorten-64-to-32 -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -Wcomma -Wmissing-variable-declarations -Wassign-enum -Wextra-semi-stmt -DHAVE_GLIBC_STRERROR_R  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -arch arm64 -MD -MT CMakeFiles/cmTC_bedb9.dir/CurlTests.c.o -MF CMakeFiles/cmTC_bedb9.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_bedb9.dir/CurlTests.c.o -c /Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:377:17: warning: unused parameter 'c' [-Wunused-parameter]
+  377 | void check(char c) {}
+      |                 ^
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:377:6: warning: no previous prototype for function 'check' [-Wmissing-prototypes]
+  377 | void check(char c) {}
+      |      ^
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:377:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+  377 | void check(char c) {}
+      | ^
+      | static 
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:380:6: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  380 | main () {
+      |      ^
+      |       void
+/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-src/CMake/CurlTests.c:383:51: error: subscripted value is not an array, pointer, or vector
+  383 |   check(strerror_r(EACCES, buffer, sizeof(buffer))[0]);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+3 warnings and 1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_bedb9.dir/build.make:82: CMakeFiles/cmTC_bedb9.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:134: cmTC_bedb9/fast] Error 2
+
+

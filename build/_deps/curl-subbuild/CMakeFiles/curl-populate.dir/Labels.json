@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-subbuild/CMakeFiles/curl-populate"
+		},
+		{
+			"file" : "/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-subbuild/CMakeFiles/curl-populate.rule"
+		},
+		{
+			"file" : "/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-subbuild/CMakeFiles/curl-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build.rule"
+		},
+		{
+			"file" : "/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download.rule"
+		},
+		{
+			"file" : "/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install.rule"
+		},
+		{
+			"file" : "/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test.rule"
+		},
+		{
+			"file" : "/Users/eduardkyrychenko923/Desktop/coding/tgarbitrage/CA/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"curl-populate"
+		],
+		"name" : "curl-populate"
+	}
+}
