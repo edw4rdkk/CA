@@ -19,6 +19,8 @@
 using nlohmann::json;
 
 // ===================== ПАРАМЕТРЫ =====================
+static constexpr int HEARTBEAT_INTERVAL_SEC = 300; // каждые 5 минут
+
 static constexpr double MIN_NET_SPREAD_PCT = 2.0;     // минимальный ЧИСТЫЙ спред для показа/рассылки, %
 static constexpr int POLL_INTERVAL_SEC = 5;           // период опроса (сек)
 static constexpr double MIN_BUY_VOL_USD = 300'000.0;  // мин. суточный оборот у биржи-покупки
@@ -696,6 +698,7 @@ int main()
     }
 
     auto blacklist = load_blacklist();
+    auto lastHeartbeat = std::chrono::system_clock::now();
 
     while (true)
     {
@@ -900,6 +903,20 @@ int main()
         if (shown == 0)
         {
             std::cout << "(no durable opportunities >= " << MIN_NET_SPREAD_PCT << "% net)\n";
+        }
+        // --- Heartbeat: проверочное сообщение раз в 5 минут ---
+        if (!tg_token.empty() && !tg_chat.empty())
+        {
+            auto now = std::chrono::system_clock::now();
+            auto elapsed = std::chrono::duration_cast<std::chrono::seconds>(now - lastHeartbeat).count();
+            if (elapsed >= HEARTBEAT_INTERVAL_SEC)
+            {
+                auto now_c = std::chrono::system_clock::to_time_t(now);
+                std::ostringstream msg;
+                msg << "✅ Bot alive. Time: " << std::put_time(std::localtime(&now_c), "%F %T");
+                sendTelegram(tg_token, tg_chat, msg.str());
+                lastHeartbeat = now;
+            }
         }
 
         std::this_thread::sleep_for(std::chrono::seconds(POLL_INTERVAL_SEC));
