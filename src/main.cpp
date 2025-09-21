@@ -19,12 +19,12 @@
 using nlohmann::json;
 
 // ===================== ПАРАМЕТРЫ =====================
-static constexpr double MIN_NET_SPREAD_PCT = 2.0;       // минимальный ЧИСТЫЙ спред для показа/рассылки, %
-static constexpr int POLL_INTERVAL_SEC = 5;             // период опроса (сек)
-static constexpr double MIN_BUY_VOL_USD = 1'000'000.0;  // мин. суточный оборот у биржи-покупки
-static constexpr double MIN_SELL_VOL_USD = 1'000'000.0; // мин. суточный оборот у биржи-продажи
-static constexpr double MAX_REL_INNER_SPREAD = 0.006;   // sanity: (ask - bid) / ask > 0.6% — неликвид
-static constexpr bool ENABLE_EXPERIMENTAL = true;       // Bitmart/BingX/XT/LBank/CoinEx/Ourbit
+static constexpr double MIN_NET_SPREAD_PCT = 2.0;     // минимальный ЧИСТЫЙ спред для показа/рассылки, %
+static constexpr int POLL_INTERVAL_SEC = 5;           // период опроса (сек)
+static constexpr double MIN_BUY_VOL_USD = 300'000.0;  // мин. суточный оборот у биржи-покупки
+static constexpr double MIN_SELL_VOL_USD = 300'000.0; // мин. суточный оборот у биржи-продажи
+static constexpr double MAX_REL_INNER_SPREAD = 0.010; // sanity: (ask - bid) / ask > 0.6% — неликвид
+static constexpr bool ENABLE_EXPERIMENTAL = true;     // Bitmart/BingX/XT/LBank/CoinEx/Ourbit
 
 // Комиссии (taker). Консервативные 0.20% — подстрой под свой уровень.
 static constexpr double FEE_BINANCE = 0.20, FEE_OKX = 0.20, FEE_KUCOIN = 0.20, FEE_BYBIT = 0.20;
@@ -36,9 +36,31 @@ static constexpr double FEE_COINEX = 0.20, FEE_OURBIT = 0.20;
 static const std::unordered_set<std::string> TIER1 = {
     "Binance", "OKX", "Bybit", "KuCoin", "Bitget", "Gate", "MEXC"};
 static constexpr double MAX_DEVIATION_FROM_MEDIAN = 0.10; // ±10% к референсу
-static constexpr bool REQUIRE_TIER1_INTERSECTION = true;  // пара должна быть ≥ на 2 биржах из Tier-1
+static constexpr bool REQUIRE_TIER1_INTERSECTION = false; // пара должна быть ≥ на 2 биржах из Tier-1
 
 // ===================== УТИЛИТЫ =====================
+
+static double median(std::vector<double> &v)
+{
+    if (v.empty())
+        return 0.0;
+    std::nth_element(v.begin(), v.begin() + v.size() / 2, v.end());
+    return v[v.size() / 2];
+}
+
+// robust-кластер: Median Absolute Deviation
+static double mad(const std::vector<double> &v, double med)
+{
+    if (v.empty())
+        return 0.0;
+    std::vector<double> d;
+    d.reserve(v.size());
+    for (double x : v)
+        d.push_back(std::abs(x - med));
+    std::nth_element(d.begin(), d.begin() + d.size() / 2, d.end());
+    return d[d.size() / 2];
+}
+
 static std::string upper(std::string s)
 {
     for (char &c : s)
@@ -710,73 +732,76 @@ int main()
             if (quotes.size() < 2)
                 continue;
 
-            // (a) минимум 2 Tier-1
-            if (REQUIRE_TIER1_INTERSECTION)
-            {
-                int tier1_count = 0;
-                for (const auto &q : quotes)
-                    if (TIER1.count(q.ex))
-                        ++tier1_count;
-                if (tier1_count < 2)
-                    continue;
-            }
-
-            // (b) референсная цена — медиана mid по Tier-1
-            std::vector<double> mids;
-            mids.reserve(quotes.size());
+            // (a) Соберём mids для всех и отдельно для Tier-1
+            std::vector<const Quote *> all;
+            all.reserve(quotes.size());
+            std::vector<double> mids_all;
+            mids_all.reserve(quotes.size());
+            std::vector<double> mids_t1;
+            mids_t1.reserve(quotes.size());
             for (const auto &q : quotes)
+            {
+                all.push_back(&q);
+                mids_all.push_back(q.mid);
                 if (TIER1.count(q.ex))
-                    mids.push_back(q.mid);
-            if (mids.size() < 2)
+                    mids_t1.push_back(q.mid);
+            }
+            if (all.size() < 2)
                 continue;
 
-            std::nth_element(mids.begin(), mids.begin() + mids.size() / 2, mids.end());
-            double ref = mids[mids.size() / 2];
-
-            // (c) оставляем котировки в пределах ±10% к референсу
-            std::vector<const Quote *> filtered;
-            filtered.reserve(quotes.size());
-            for (const auto &q : quotes)
+            // (b) Референс — медиана Tier-1, если они есть; иначе — медиана всех
+            double ref = 0.0;
+            if (mids_t1.size() >= 1)
             {
-                double dev = std::abs(q.mid - ref) / ref;
-                if (dev <= MAX_DEVIATION_FROM_MEDIAN)
-                    filtered.push_back(&q);
+                ref = median(mids_t1);
+            }
+            else
+            {
+                ref = median(mids_all);
+            }
+
+            // (c) MAD-кокон: оставляем цены внутри ref ± K*MAD
+            //   Для Tier-1 берём мягче (K=6), для остальных строже (K=4)
+            double m_all = mad(mids_all, ref);
+            double k_t1 = 6.0;
+            double k_non = 4.0;
+            double band_t1_low = ref - k_t1 * m_all;
+            double band_t1_high = ref + k_t1 * m_all;
+            double band_non_low = ref - k_non * m_all;
+            double band_non_high = ref + k_non * m_all;
+
+            // (d) «якорь Tier-1»:
+            //    - Если есть хоть 1 биржа из Tier-1 около ref — разрешаем и non-Tier1,
+            //      но только если они попадают в более узкий band_non.
+            //    - Если Tier-1 нет вообще — работаем по all, но всё равно через band_non.
+            std::vector<const Quote *> filtered;
+            filtered.reserve(all.size());
+            bool have_tier1_anchor = (mids_t1.size() >= 1);
+            for (const Quote *q : all)
+            {
+                bool is_t1 = TIER1.count(q->ex) > 0;
+                double lo = is_t1 ? band_t1_low : band_non_low;
+                double hi = is_t1 ? band_t1_high : band_non_high;
+                if (q->mid >= lo && q->mid <= hi)
+                {
+                    filtered.push_back(q);
+                }
             }
             if (filtered.size() < 2)
                 continue;
 
-            // (d) требуем объём на обеих сторонах (строго)
-            std::vector<const Quote *> buys, sells;
-            buys.reserve(filtered.size());
-            sells.reserve(filtered.size());
-            for (const Quote *q : filtered)
+            // (e) Если есть Tier-1 якорь — требуем хотя бы одну Tier-1 в итоговом множестве
+            if (have_tier1_anchor)
             {
-                if (q->vol >= MIN_BUY_VOL_USD)
-                    buys.push_back(q);
-                if (q->vol >= MIN_SELL_VOL_USD)
-                    sells.push_back(q);
-            }
-            if (buys.empty() || sells.empty())
-                continue;
-
-            // (e) перебираем кроссы BUY!=SELL
-            for (const Quote *bq : buys)
-            {
-                for (const Quote *sq : sells)
-                {
-                    if (bq->ex == sq->ex)
-                        continue;
-                    double ask = bq->ask, bid = sq->bid;
-                    if (ask <= 0 || bid <= 0)
-                        continue;
-
-                    double gross = (bid - ask) / ask * 100.0;
-                    double net = gross - (bq->fee + sq->fee);
-                    if (net + 1e-12 >= MIN_NET_SPREAD_PCT)
+                bool t1_present = false;
+                for (auto *q : filtered)
+                    if (TIER1.count(q->ex))
                     {
-                        hits.push_back(Hit{pair, bq->ex, sq->ex, ask, bid, gross, net, bq->vol, sq->vol});
+                        t1_present = true;
+                        break;
                     }
-                }
+                if (!t1_present)
+                    continue;
             }
         }
 
