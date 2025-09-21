@@ -79,7 +79,7 @@ static std::unordered_set<std::string> load_blacklist(const std::string &path = 
 // Ретраи + проверка JSON
 static std::optional<json> get_json(const std::string &url,
                                     const cpr::Parameters &params = {},
-                                    const cpr::Header &hdr_in = {{"Accept", "application/json"}, {"User-Agent", "arb-scanner/2.0"}, {"Accept-Encoding", "gzip"}})
+                                    const cpr::Header &hdr_in = {{"Accept", "application/json"}, {"User-Agent", "arb-scanner/2.0"}, {"Accept-Encoding", "identity"}})
 {
     const int max_attempts = 5;
     int backoff_ms = 300;
